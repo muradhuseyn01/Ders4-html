@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+<body>
+    <h1>My Feedback Form</h1>
+    <form>
+        <ul>
+            <li>
+                <label for="txt">Name:           
+                    <input type="text" name="text" id="txt" placeholder="Name">
+                  </label> <br><br>
+               <li>   <label for="email">E-mail: 
+                    <input type="email" name="email" id="email" placeholder="Email">
+               </label> <br><br>
+            </li>
+             <li>  <label for="psw">Password:           
+                <input type="password" name="password" id="psw" placeholder="Password">
+                </label> <br><br></li>
+         </li> 
+         <li>Please check all the emotions that apply to you:
+            <ul style="list-style-type: disc;">
+                <li><label>Angry
+                    <input type="checkbox" name="checkbox">
+                </label></li><br>
+                <li><label>Sad
+                    <input type="checkbox" name="checkbox">
+                </label></li><br>
+                <li><label>Happy
+                    <input type="checkbox" name="checkbox">
+                </label></li><br>
+                <li><label>Ambivalent
+                    <input type="checkbox" name="checkbox">
+                </label></li><br>
+            </ul>
+         </li>
+         <li>How satisfied were you with your service?
+            <ul style="list-style-type: disc;">
+                <li><label>Very satisfied
+                    <input type="radio" name="eyni">
+                </label></li><br>
+                <li><label>Satisfied
+                    <input type="radio" name="eyni">
+                </label></li><br>
+                <li><label>Didnt care
+                    <input type="radio" name="eyni">
+                </label></li><br>
+                <li><label>Very dissatisfied
+                    <input type="radio" name="eyni">
+                </label></li><br>
+                <li><label>Dissatisfied
+                    <input type="radio" name="eyni">
+                </label></li><br>
+            </ul>
+         </li>
+         <li>Furters comments:
+            <textarea cols="30" rols="6" style="resize: none;"></textarea>
+         </li><br>
+         <li>Bio photo:
+            <label>
+            <input type="url" name="url">
+            <input type="button" name="file" value="Choose">
+            </label>
+         </li><br>
+         <li>Location visited:
+            <select>
+                <option value="select location">Select location</option>
+            </select>
+         </li><br>
+         <li><button>Submit</button></li>
+        </ul>
+    </form>
+</body>
+</html>
